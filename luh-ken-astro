@@ -105,7 +105,7 @@ function Fun.Create(title)
 
     nightmares.Name = "nightmares"
     nightmares.Parent = mainSide
-    nightmares.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    nightmares.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
     nightmares.BackgroundTransparency = 1.000
     nightmares.Position = UDim2.new(0.0499999262, 0, 0.0228203665, 0)
     nightmares.Size = UDim2.new(0, 103, 0, 28)
@@ -118,7 +118,7 @@ function Fun.Create(title)
 
     fun.Name = "fun"
     fun.Parent = mainSide
-    fun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    fun.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
     fun.BackgroundTransparency = 1.000
     fun.Position = UDim2.new(0.622289062, 0, 0.0228203665, 0)
     fun.Size = UDim2.new(0, 54, 0, 27)
@@ -138,7 +138,7 @@ function Fun.Create(title)
 
     allTabs.Name = "allTabs"
     allTabs.Parent = mainSide
-    allTabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    allTabs.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
     allTabs.BackgroundTransparency = 1.000
     allTabs.Position = UDim2.new(0.0499999262, 0, 0.108294941, 0)
     allTabs.Size = UDim2.new(0, 149, 0, 344)
