@@ -246,7 +246,7 @@ function Fun.Create(title)
 
             sectionFrame.Name = "sectionFrame"
             sectionFrame.Parent = newPage
-            sectionFrame.BackgroundColor3 = Color3.fromRGB(37, 37, 44)
+            sectionFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
             sectionFrame.Position = UDim2.new(0, 0, -8.009863e-08, 0)
             sectionFrame.Size = UDim2.new(0.9559322, 0, 0, 36)
             sectionFrame.ClipsDescendants = true
@@ -260,7 +260,7 @@ function Fun.Create(title)
 
             sectionFrameHead.Name = "sectionFrameHead"
             sectionFrameHead.Parent = sectionFrame
-            sectionFrameHead.BackgroundColor3 = Color3.fromRGB(37, 37, 44)
+            sectionFrameHead.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
             sectionFrameHead.Position = UDim2.new(0, 0, -8.009863e-08, 0)
             sectionFrameHead.Size = UDim2.new(1, 0, 0, 36)
 
@@ -268,7 +268,7 @@ function Fun.Create(title)
 
             sectionCircle.Name = "sectionCircle"
             sectionCircle.Parent = sectionFrameHead
-            sectionCircle.BackgroundColor3 = Color3.fromRGB(82, 82, 98)
+            sectionCircle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
             sectionCircle.Position = UDim2.new(0.0354609936, 0, 0.388888896, 0)
             sectionCircle.Size = UDim2.new(0, 7, 0, 7)
 
@@ -276,7 +276,7 @@ function Fun.Create(title)
             UICorner_3.Parent = sectionCircle
 
             TextLabel.Parent = sectionFrameHead
-            TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
             TextLabel.BackgroundTransparency = 1.000
             TextLabel.Position = UDim2.new(0.0992907807, 0, 0.194444448, 0)
             TextLabel.Size = UDim2.new(0, 173, 0, 22)
@@ -295,7 +295,7 @@ function Fun.Create(title)
             closeSection.Size = UDim2.new(0, 25, 0, 25)
             closeSection.ZIndex = 2
             closeSection.Image = "rbxassetid://3926305904"
-            closeSection.ImageColor3 = Color3.fromRGB(82, 82, 98)
+            closeSection.ImageColor3 = Color3.fromRGB(17, 17, 17)
             closeSection.ImageRectOffset = Vector2.new(404, 284)
             closeSection.ImageRectSize = Vector2.new(36, 36)
             closeSection.MouseButton1Click:Connect(function()
@@ -347,7 +347,7 @@ function Fun.Create(title)
 
                 buttonFrame.Name = "buttonFrame"
                 buttonFrame.Parent = sectionFrame
-                buttonFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                buttonFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
                 buttonFrame.BackgroundTransparency = 1.000
                 buttonFrame.Position = UDim2.new(0.0354609936, 0, 0.168103442, 0)
                 buttonFrame.Size = UDim2.new(0, 262, 0, 31)
