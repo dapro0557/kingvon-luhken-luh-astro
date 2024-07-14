@@ -76,7 +76,7 @@ function Fun.Create(title)
 
     mainFrame.Name = "mainFrame"
     mainFrame.Parent = Shadow
-    mainFrame.BackgroundColor3 = Color3.fromRGB(47, 47, 56)
+    mainFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
     mainFrame.Position = UDim2.new(0.0500000007, 0, 0.0780000016, 0)
     mainFrame.Size = UDim2.new(0, 475, 0, 396)
 
@@ -86,7 +86,7 @@ function Fun.Create(title)
 
     mainSide.Name = "mainSide"
     mainSide.Parent = mainFrame
-    mainSide.BackgroundColor3 = Color3.fromRGB(37, 37, 44)
+    mainSide.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
     mainSide.Size = UDim2.new(0, 166, 0, 396)
 
     UICorner.CornerRadius = UDim.new(0, 6)
@@ -105,7 +105,7 @@ function Fun.Create(title)
 
     nightmares.Name = "nightmares"
     nightmares.Parent = mainSide
-    nightmares.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    nightmares.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
     nightmares.BackgroundTransparency = 1.000
     nightmares.Position = UDim2.new(0.0499999262, 0, 0.0228203665, 0)
     nightmares.Size = UDim2.new(0, 103, 0, 28)
