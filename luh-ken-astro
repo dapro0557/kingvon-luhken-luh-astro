@@ -67,12 +67,12 @@ function Fun.Create(title)
 
     Shadow.Name = "Shadow"
     Shadow.Parent = nightmarefun
-    Shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Shadow.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
     Shadow.BackgroundTransparency = 1.000
     Shadow.Position = UDim2.new(0.349795759, 0, 0.171759665, 0)
     Shadow.Size = UDim2.new(0, 525, 0, 468)
     Shadow.Image = "http://www.roblox.com/asset/?id=6105530152"
-    Shadow.ImageColor3 = Color3.fromRGB(18, 18, 18)
+    Shadow.ImageColor3 = Color3.fromRGB(17, 17, 17)
 
     mainFrame.Name = "mainFrame"
     mainFrame.Parent = Shadow
