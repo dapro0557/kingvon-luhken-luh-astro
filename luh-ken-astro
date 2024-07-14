@@ -67,16 +67,16 @@ function Fun.Create(title)
 
     Shadow.Name = "Shadow"
     Shadow.Parent = nightmarefun
-    Shadow.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    Shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Shadow.BackgroundTransparency = 1.000
     Shadow.Position = UDim2.new(0.349795759, 0, 0.171759665, 0)
     Shadow.Size = UDim2.new(0, 525, 0, 468)
     Shadow.Image = "http://www.roblox.com/asset/?id=6105530152"
-    Shadow.ImageColor3 = Color3.fromRGB(17, 17, 17)
+    Shadow.ImageColor3 = Color3.fromRGB(18, 18, 18)
 
     mainFrame.Name = "mainFrame"
     mainFrame.Parent = Shadow
-    mainFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    mainFrame.BackgroundColor3 = Color3.fromRGB(47, 47, 56)
     mainFrame.Position = UDim2.new(0.0500000007, 0, 0.0780000016, 0)
     mainFrame.Size = UDim2.new(0, 475, 0, 396)
 
@@ -86,7 +86,7 @@ function Fun.Create(title)
 
     mainSide.Name = "mainSide"
     mainSide.Parent = mainFrame
-    mainSide.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    mainSide.BackgroundColor3 = Color3.fromRGB(37, 37, 44)
     mainSide.Size = UDim2.new(0, 166, 0, 396)
 
     UICorner.CornerRadius = UDim.new(0, 6)
@@ -105,40 +105,40 @@ function Fun.Create(title)
 
     nightmares.Name = "nightmares"
     nightmares.Parent = mainSide
-    nightmares.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    nightmares.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     nightmares.BackgroundTransparency = 1.000
     nightmares.Position = UDim2.new(0.0499999262, 0, 0.0228203665, 0)
     nightmares.Size = UDim2.new(0, 103, 0, 28)
     nightmares.TextXAlignment = Enum.TextXAlignment.Left
     nightmares.Font = Enum.Font.Gotham
     nightmares.Text = " "..title
-    nightmares.TextColor3 = Color3.fromRGB(17, 17, 17)
+    nightmares.TextColor3 = Color3.fromRGB(92, 53, 93)
     nightmares.TextSize = 20.000
     nightmares.TextWrapped = true
 
     fun.Name = "fun"
     fun.Parent = mainSide
-    fun.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    fun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     fun.BackgroundTransparency = 1.000
     fun.Position = UDim2.new(0.622289062, 0, 0.0228203665, 0)
     fun.Size = UDim2.new(0, 54, 0, 27)
     fun.Font = Enum.Font.Gotham
     fun.Text = ""
-    fun.TextColor3 = Color3.fromRGB(17, 17, 17)
+    fun.TextColor3 = Color3.fromRGB(255, 255, 255)
     fun.TextSize = 20.000
-    fun.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
+    fun.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
     fun.TextWrapped = true
 
     cover.Name = "cover"
     cover.Parent = mainSide
-    cover.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    cover.BackgroundColor3 = Color3.fromRGB(37, 37, 44)
     cover.BorderSizePixel = 0
     cover.Position = UDim2.new(0.949999988, 0, 0, 0)
     cover.Size = UDim2.new(0, 9, 0, 396)
 
     allTabs.Name = "allTabs"
     allTabs.Parent = mainSide
-    allTabs.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    allTabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     allTabs.BackgroundTransparency = 1.000
     allTabs.Position = UDim2.new(0.0499999262, 0, 0.108294941, 0)
     allTabs.Size = UDim2.new(0, 149, 0, 344)
@@ -149,7 +149,7 @@ function Fun.Create(title)
 
     allPages.Name = "allPages"
     allPages.Parent = mainFrame
-    allPages.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+    allPages.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     allPages.BackgroundTransparency = 1.000
     allPages.Position = UDim2.new(0.366315782, 0, 0.017676767, 0)
     allPages.Size = UDim2.new(0, 295, 0, 381)
@@ -166,24 +166,24 @@ function Fun.Create(title)
         local tabButton = Instance.new("TextButton")
         tabButton.Name = "tabButton"..tabText
         tabButton.Parent = allTabs
-        tabButton.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+        tabButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         tabButton.BackgroundTransparency = 1.000
         tabButton.Size = UDim2.new(0, 149, 0, 35)
         tabButton.Font = Enum.Font.Gotham
         tabButton.Text = tabText
-        tabButton.TextColor3 = Color3.fromRGB(17, 17, 17)
+        tabButton.TextColor3 = Color3.fromRGB(87, 87, 104)
         tabButton.TextSize = 16.000
 
         local newPage = Instance.new("ScrollingFrame")
         newPage.Name = "newPage"..tabText
         newPage.Parent = pages
         newPage.Active = true
-        newPage.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+        newPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         newPage.BackgroundTransparency = 1.000
         newPage.BorderSizePixel = 0
         newPage.Size = UDim2.new(1, 0, 1, 0)
         newPage.ScrollBarThickness = 6
-        newPage.ScrollBarImageColor3 = Color3.fromRGB(255, 0, 0)
+        newPage.ScrollBarImageColor3 = Color3.fromRGB(127, 97, 145)
         newPage.Visible = false
 
         local sectionListing = Instance.new("UIListLayout")    
@@ -246,7 +246,7 @@ function Fun.Create(title)
 
             sectionFrame.Name = "sectionFrame"
             sectionFrame.Parent = newPage
-            sectionFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+            sectionFrame.BackgroundColor3 = Color3.fromRGB(37, 37, 44)
             sectionFrame.Position = UDim2.new(0, 0, -8.009863e-08, 0)
             sectionFrame.Size = UDim2.new(0.9559322, 0, 0, 36)
             sectionFrame.ClipsDescendants = true
@@ -260,7 +260,7 @@ function Fun.Create(title)
 
             sectionFrameHead.Name = "sectionFrameHead"
             sectionFrameHead.Parent = sectionFrame
-            sectionFrameHead.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+            sectionFrameHead.BackgroundColor3 = Color3.fromRGB(37, 37, 44)
             sectionFrameHead.Position = UDim2.new(0, 0, -8.009863e-08, 0)
             sectionFrameHead.Size = UDim2.new(1, 0, 0, 36)
 
@@ -268,7 +268,7 @@ function Fun.Create(title)
 
             sectionCircle.Name = "sectionCircle"
             sectionCircle.Parent = sectionFrameHead
-            sectionCircle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+            sectionCircle.BackgroundColor3 = Color3.fromRGB(82, 82, 98)
             sectionCircle.Position = UDim2.new(0.0354609936, 0, 0.388888896, 0)
             sectionCircle.Size = UDim2.new(0, 7, 0, 7)
 
@@ -276,7 +276,7 @@ function Fun.Create(title)
             UICorner_3.Parent = sectionCircle
 
             TextLabel.Parent = sectionFrameHead
-            TextLabel.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+            TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             TextLabel.BackgroundTransparency = 1.000
             TextLabel.Position = UDim2.new(0.0992907807, 0, 0.194444448, 0)
             TextLabel.Size = UDim2.new(0, 173, 0, 22)
@@ -295,7 +295,7 @@ function Fun.Create(title)
             closeSection.Size = UDim2.new(0, 25, 0, 25)
             closeSection.ZIndex = 2
             closeSection.Image = "rbxassetid://3926305904"
-            closeSection.ImageColor3 = Color3.fromRGB(17, 17, 17)
+            closeSection.ImageColor3 = Color3.fromRGB(82, 82, 98)
             closeSection.ImageRectOffset = Vector2.new(404, 284)
             closeSection.ImageRectSize = Vector2.new(36, 36)
             closeSection.MouseButton1Click:Connect(function()
@@ -347,7 +347,7 @@ function Fun.Create(title)
 
                 buttonFrame.Name = "buttonFrame"
                 buttonFrame.Parent = sectionFrame
-                buttonFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+                buttonFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 buttonFrame.BackgroundTransparency = 1.000
                 buttonFrame.Position = UDim2.new(0.0354609936, 0, 0.168103442, 0)
                 buttonFrame.Size = UDim2.new(0, 262, 0, 31)
